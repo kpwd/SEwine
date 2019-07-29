@@ -39,17 +39,17 @@ userdel: sewine_1564404833573153535 mail spool (/var/spool/mail/sewine_156440483
 [tetsai-pc SEwine]#   
 
 
-#Note(说明)
-所有操作必须root运行.
-all opration should run in root!
-程序依赖kdesu,dolphin以方便用其它用户运行wine序,如果不是kde环境,可以试着改一下,看看对应的环境有没有类似的
-this application uses "kdesu,dolphin" to run wine as other user,if you aren't KDE,you should edit it to make it available.
-本程序会在home下创建一个console文件夹,文件为:
-this application will create a folder named "console" ,it's files is:
+# Note(说明)
+所有操作必须root运行.  
+all opration should run in root!  
+程序依赖kdesu,dolphin以方便用其它用户运行wine序,如果不是kde环境,可以试着改一下,看看对应的环境有没有类似的  
+this application uses "kdesu,dolphin" to run wine as other user,if you aren't KDE,you should edit it to make it available.  
+本程序会在home下创建一个console文件夹,文件为:  
+this application will create a folder named "console" ,it's files is:  
 
-stop.sh -stop all of the process which end of ".exe" in the sandbox(暂停,冻结这个沙盒里所有的 *.exe 进程
-opration.sh -other file 依赖文件
-kill.sh -kill all of the process which end of ".exe" in the sandbox (杀死这个沙盒里所有的 *.exe 进程
-exit.sh -kill all of the process in the sandbox(退出这个沙盒,清除所有进程
-continue.sh -recover all of the process which end of ".exe" in the sandbox(解除冻结这个沙盒里所有的*.exe 进程
+stop.sh -stop all of the process which end of ".exe" in the sandbox(暂停,冻结这个沙盒里所有的 *.exe 进程  
+opration.sh -other file 依赖文件  
+kill.sh -kill all of the process which end of ".exe" in the sandbox (杀死这个沙盒里所有的 *.exe 进程  
+exit.sh -kill all of the process in the sandbox(退出这个沙盒,清除所有进程  
+continue.sh -recover all of the process which end of ".exe" in the sandbox(解除冻结这个沙盒里所有的*.exe 进程  
 
