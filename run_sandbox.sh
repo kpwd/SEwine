@@ -1,5 +1,9 @@
 #!/bin/sh
 uname=$1
+if [ ! -n "$uname" ]; then
+exit
+fi
+
 RANDOM_FILE=/tmp/$uname.sh
 echo "#!/bin/sh
 export \$(dbus-launch)
